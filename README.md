@@ -1,10 +1,15 @@
-# Qv2ray - Make V2ray real cross-platform
+<p align="center">
+<img width="210" height="210" align="left" style="float: left; margin: 0 10px 0 0;" src="https://raw.githubusercontent.com/Qv2ray/Qv2ray/master/assets/icons/qv2ray.png" alt="Qv2ray"/>
+</br>
+<h1>Qv2ray - Unleash Your V2Ray</h1> 
+使用 Qt 框架的跨平台 V2Ray 客户端。支持 Windows, Linux, macOS
+</br>
+插件系统支持 SSR / Trojan / Trojan-Go / NaiveProxy
+</p>
 
 [![HitCount](http://hits.dwyl.io/Qv2ray/Qv2ray.svg)](http://hits.dwyl.io/Qv2ray/Qv2ray)
 [![GitHub Releases](https://img.shields.io/github/downloads/Qv2ray/Qv2ray/latest/total?style=flat-square&logo=github)](https://github.com/Qv2ray/Qv2ray/releases)
 [![GitHub All Releases](https://img.shields.io/github/downloads/Qv2ray/Qv2ray/total?label=downloads-total&logo=github&style=flat-square)](https://github.com/Qv2ray/Qv2ray/releases)
-
-使用 Qt 框架的跨平台 v2ray 客户端。支持 Windows, Linux, macOS。
 
 ## Availability & Status
 
@@ -43,10 +48,10 @@
   <td>Fedora</td>
   <td>
    <a href="https://build.opensuse.org/package/show/home:zzndb:Qv2ray/Qv2ray">
-    <img alt="Copr Stable" src="https://img.shields.io/badge/Fedora%20Copr-stable-blue" />
+    <img alt="OBS Stable" src="https://img.shields.io/badge/dynamic/xml?color=3c6eb4&label=OBS%20stable&query=substring-before%28substring-after%28%2F%2F%40filename%5Bcontains%28.%2C%20%27src.rpm%27%29%5D%2C%20%27Qv2ray-%27%29%2C%20%27-%27%29&url=https%3A%2F%2Fapi.opensuse.org%2Fpublic%2Fbuild%2Fhome%3Azzndb%3AQv2ray%2FFedora_Rawhide%2Fx86_64%2FQv2ray" />
    </a><br/>
    <a href="https://build.opensuse.org/package/show/home:zzndb:Qv2ray/Qv2ray-preview">
-    <img alt="Copr Preview" src="https://img.shields.io/badge/Fedora%20Copr-preview-blue" />
+    <img alt="OBS Preview" src="https://img.shields.io/badge/dynamic/xml?color=3c6eb4&label=OBS%20preview&query=substring-before%28substring-after%28%2F%2F%40filename%5Bcontains%28.%2C%20%27src.rpm%27%29%5D%2C%20%27Qv2ray-preview-%27%29%2C%20%27-%27%29&url=https%3A%2F%2Fapi.opensuse.org%2Fpublic%2Fbuild%2Fhome%3Azzndb%3AQv2ray%2FFedora_Rawhide%2Fx86_64%2FQv2ray-preview" />
    </a>
   </td>
  </tr>
@@ -77,11 +82,11 @@
  <tr>
   <td>openSUSE</td>
   <td>
-   <a href="https://build.opensuse.org/package/show/home:zzndb/Qv2ray">
-    <img alt="OBS Stable" src="https://img.shields.io/badge/openSUSE%20OBS-stable-blue" />
+   <a href="https://build.opensuse.org/package/show/home:zzndb:Qv2ray/Qv2ray">
+    <img alt="OBS Stable" src="https://img.shields.io/badge/dynamic/xml?color=73ba25&label=OBS%20stable&query=substring-before%28substring-after%28%2F%2F%40filename%5Bcontains%28.%2C%20%27src.rpm%27%29%5D%2C%20%27Qv2ray-%27%29%2C%20%27-%27%29&url=https%3A%2F%2Fapi.opensuse.org%2Fpublic%2Fbuild%2Fhome%3Azzndb%3AQv2ray%2FopenSUSE_Tumbleweed%2Fx86_64%2FQv2ray" />
    </a><br/>
-   <a href="https://build.opensuse.org/package/show/home:zzndb/Qv2ray-preview">
-    <img alt="OBS Stable" src="https://img.shields.io/badge/openSUSE%20OBS-preview-blue" />
+   <a href="https://build.opensuse.org/package/show/home:zzndb:Qv2ray/Qv2ray-preview">
+    <img alt="OBS Stable" src="https://img.shields.io/badge/dynamic/xml?color=73ba25&label=OBS%20preview&query=substring-before%28substring-after%28%2F%2F%40filename%5Bcontains%28.%2C%20%27src.rpm%27%29%5D%2C%20%27Qv2ray-preview-%27%29%2C%20%27-%27%29&url=https%3A%2F%2Fapi.opensuse.org%2Fpublic%2Fbuild%2Fhome%3Azzndb%3AQv2ray%2FopenSUSE_Tumbleweed%2Fx86_64%2FQv2ray-preview" />
    </a>
   </td>
  </tr>
@@ -110,7 +115,7 @@
 Qv2ray is licenced under [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ```
-    Qv2ray, A Qt frontend for v2ray. Written in C++
+    Qv2ray, A Qt frontend for V2Ray. Written in C++
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
